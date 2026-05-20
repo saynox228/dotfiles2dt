@@ -35,3 +35,6 @@ sudo apt install -y "${PACKAGES[@]}"
 
 echo "Packages installed successfully."
 
+DOTFILES_DIR="$HOME/dotfiles" # dotfiles directory
+
+REPO_URL="https://github.com/saynox228/dotfiles2dt.git"
