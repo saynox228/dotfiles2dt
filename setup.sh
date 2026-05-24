@@ -42,7 +42,7 @@ sudo apt install -y "${PACKAGES[@]}"
 DOTFILES_DIR="$HOME/dotfiles"
 REPO_URL="https://github.com/saynox228/dotfiles2dt.git"
 
-if [ -d "$DOTFILES_DIR" ]; then
+if [ -d "$DOTFILES_DIR/.git" ]; then
     echo "📂 Updating dotfiles..."
     cd "$DOTFILES_DIR"
     git pull origin main
