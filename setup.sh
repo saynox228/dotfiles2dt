@@ -132,6 +132,14 @@ create_symlink \
 "$DOTFILES_DIR/.zshrc" \
 "$HOME/.zshrc"
 
+create_symlink \
+"$DOTFILES_DIR/.p10k.zsh" \
+"$HOME/.p10k.zsh"
+
+create_symlink \
+"$DOTFILES_DIR/.vimrc" \
+"$HOME/.vimrc"
+
 # ---------------------------------------------------------
 # Change shell
 # ---------------------------------------------------------
